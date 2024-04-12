@@ -76,8 +76,8 @@ def convert_ner_cluener_prompt(inputfile,outputfile):
 
 
 if __name__=="__main__":
-    inputfile = r'E:\open_data\cluener_public\train.json'
-    outputfile = r'E:\openlab\ChatGLM2-6B\data\ner\train2.json'
+    inputfile = r'D:/code/LLM-NER\data/cluener_public/dev.json'
+    outputfile = r'D:/code/LLM-NER\data/cluener_public/dev_prompt.json'
     convert_ner_cluener_prompt(inputfile,outputfile)
 
 

@@ -1,0 +1,1 @@
+docker run -v /dmcv/zhangleisx4614:/zhangleisx4614   --name llm_ner --shm-size=32g  -itd thub.autohome.com.cn/dmcv/intent_pytorch:v0.1
